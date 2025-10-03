@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main (){
+    int x,y,multiplication,addition,subtraction,remainder;
+    printf("Enter two No.s x and y : ");
+    scanf("%d %d",&x,&y);
+    
+    addition = x+y;
+    subtraction = x-y;
+    multiplication = x*y;
+    remainder = x%y;
+    
+    printf("addition : %d\n",addition);
+    printf("subtraction : %d\n",subtraction);
+    printf("multiplication : %d\n",multiplication);
+    printf("remainder : %d\n",remainder);
+    
+    return 0;
+    }
+  
