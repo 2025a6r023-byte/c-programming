@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main(){
+    float side,length,breadth,radius;
+    printf("Enter side of the square : ");
+    scanf("%f",&side);
+    printf("area of square : %.2f\n",side*side);
+    printf("perimeter of square : %.2f\n",4*side);
+    printf("enter radius of circle : ");
+    scanf("%f",&radius);
+    printf("area of circle : %.2f\n",3.14*radius*radius);
+    printf("perimeter of circle : %.2f\n",2*3.14*radius);
+    printf("enter length and breadth of the rectangle : ");
+    scanf("%f%f",&length,&breadth);
+    printf("area of rectangle : %.2f\n",length*breadth);
+    printf("perimeter of rectangle : %.2f\n",2*(length+breadth));
+    
+    return 0;
+}
