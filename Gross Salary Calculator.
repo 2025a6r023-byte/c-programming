@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int B;
+    float gross,hra,da;
+    scanf("%d",&B);
+    if(B<=10000){
+        hra=0.20*B;
+        da=0.30*B;
+        }
+    else if(B<=20000){
+        hra=0.25*B;
+        da=0.40*B;
+        }
+    else {
+        hra=0.30*B;
+        da=0.50*B;
+        }
+    gross=B+hra+da;
+    printf("%.2f",gross);
+    return 0;
+}
